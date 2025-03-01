@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 787a34399309f9e41ba16316e9bc9ffe
+=======
+guid: 64abe1b57a4605447ac87d256b8e1aae
+>>>>>>> origin/guyann-branch
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -147,8 +151,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable:
       octagon-4_0: -3480402228926653678
+=======
+    nameFileIdTable: {}
+>>>>>>> origin/guyann-branch
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
