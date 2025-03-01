@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
         float hor;
         float ver;
 
+        float speed = 100;
+
         hor = Input.GetAxisRaw("Horizontal");
         ver = Input.GetAxisRaw("Vertical");
 
@@ -35,7 +37,7 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity = transform.up.normalized * rb.linearVelocity.magnitude;
         }
         if ( ver > 0) {
-            rb.linearVelocity = transform.up;
+            rb.linearVelocity = transform.up * Time.deltaTime * speed;
         }
         else if ( ver < 0) {
             rb.linearVelocity = new Vector2(0, 0);
