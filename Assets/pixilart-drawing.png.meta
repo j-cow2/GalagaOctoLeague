@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 787a34399309f9e41ba16316e9bc9ffe
-=======
-guid: 64abe1b57a4605447ac87d256b8e1aae
->>>>>>> origin/guyann-branch
+guid: f16c1bac4b360434b8e13e6ce539cc0f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3480402228926653678
-    second: octagon-4_0
+      213: 7100757809047929424
+    second: pixilart-drawing_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: octagon-4_0
+      name: pixilart-drawing_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 63
-        width: 386
-        height: 386
+        x: 55
+        y: 105
+        width: 387
+        height: 355
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21b595ddc9023bfc0800000000000000
-      internalID: -3480402228926653678
+      spriteID: 052026c1b95fa8260800000000000000
+      internalID: 7100757809047929424
       vertices: []
       indices: 
       edges: []
@@ -142,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61f571060dfdcc14287d409f2dbb535e
     internalID: 0
     vertices: []
     indices: 
@@ -151,12 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable:
-      octagon-4_0: -3480402228926653678
-=======
-    nameFileIdTable: {}
->>>>>>> origin/guyann-branch
+      pixilart-drawing_0: 7100757809047929424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
