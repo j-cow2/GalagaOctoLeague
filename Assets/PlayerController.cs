@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
         
     }
 
-
+    public float speed = 100;
     public Rigidbody2D rb;
     Vector3 temp = new Vector3(0, 0, 0);
 
@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
         float hor;
         float ver;
 
-        float speed = 100;
 
         hor = Input.GetAxisRaw("Horizontal");
         ver = Input.GetAxisRaw("Vertical");
@@ -38,11 +37,14 @@ public class PlayerController : MonoBehaviour
         }
         if ( ver > 0) {
             rb.linearVelocity = transform.up * Time.deltaTime * speed;
+            speed = Mathf.Clamp(speed + 10, 0, 1000);
         }
         else if ( ver < 0) {
+            speed = Mathf.Clamp(speed - 10, 0, 700);
+        }
+        if (speed == 0){
             rb.linearVelocity = new Vector2(0, 0);
         }
-
         transform.rotation = Quaternion.Euler(temp);
     }
 }
