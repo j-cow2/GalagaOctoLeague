@@ -37,10 +37,10 @@ public class PlayerController : MonoBehaviour
         }
         if ( ver > 0) {
             rb.linearVelocity = transform.up * Time.deltaTime * speed;
-            speed = Mathf.Clamp(speed + 10, 0, 1000);
+            speed = Mathf.Clamp(speed + 10, 0, 1000) * Time.deltaTime;
         }
         else if ( ver < 0) {
-            speed = Mathf.Clamp(speed - 10, 0, 700);
+            speed = Mathf.Clamp(speed - 10, 0, 700) * Time.deltaTime;
         }
         if (speed == 0){
             rb.linearVelocity = new Vector2(0, 0);
