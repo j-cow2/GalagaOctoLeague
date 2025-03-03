@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     float speed = 100;
 
 
-    // Update is called once per frame
+    // date is called once per frame
     void Update()
     {
         float hor;

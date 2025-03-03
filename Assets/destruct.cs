@@ -25,7 +25,7 @@ public class destruct : MonoBehaviour
                 SceneManager.LoadScene(2);
             }
             GameObject temp = GameObject.Instantiate(expl, transform.position, Quaternion.identity);
-            GameObject.Find("Ball").GetComponent<ResetBall>().ResetMan();
+            GameObject.Find("Ball").GetComponent<ResetBall>().ResetMan(gatenum);
             GameObject.Find("enemySpawner").GetComponent<spawner>().KillEnemy(gatenum);
             
             Destroy(this.gameObject);

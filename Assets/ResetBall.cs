@@ -17,11 +17,11 @@ public class ResetBall : MonoBehaviour
         
     }
 
-    public void ResetMan() {
+    public void ResetMan(int num) {
         transform.position = new Vector3(0, 0, 0);
         GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, 0);
         count++;
-        if (count == 7) {
+        if (count == 7 && num != 7) {
             SceneManager.LoadScene(3);
         }
         
